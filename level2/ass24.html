@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    //a program to read 5 numbers and print the maximum and minimum number
+    var x,max,min;
+    x=1;
+    max=-Infinity;
+    min=+Infinity;
+    while(x<=5){
+        x=+prompt();
+        if(x>max){
+            max=x;
+        }
+        if(x<min){
+            min=x;
+        }
+        
+        x=x++;
+
+    }
+    console.log(max)
+    console.log(min)
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

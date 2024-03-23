@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var a, b, c;
+        a = +prompt();
+        b = +prompt();
+        c = +prompt();
+        if (a > b) {
+            if (a > c) {
+                if (b > c) {
+                    console.log(a, b, c)
+                }
+                else {
+                    console.log(a, c, b)
+                }
+            }
+        }
+        if (b > a) {
+            if (b > c) {
+                console.log(b, c, a)
+            }
+            else {
+                console.log(b, a, c)
+
+            }
+        }
+        if (c > a) {
+            if (c > b) {
+                console.log(c, a, b)
+            }
+            else {
+                console.log(c, b, a)
+            }
+        }
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
